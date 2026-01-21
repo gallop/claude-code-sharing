@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "sound_enabled": true,
+  "highlight_enabled": true,
+  "events": {
+    "stop": {
+      "enabled": true,
+      "sound": true,
+      "highlight": true,
+      "flash_count": 5,
+      "highlight_mode": "flash"
+    },
+    "tool_complete": {
+      "enabled": true,
+      "sound": true,
+      "highlight": true,
+      "flash_count": 3,
+      "highlight_mode": "flash"
+    },
+    "permission": {
+      "enabled": true,
+      "sound": false,
+      "highlight": true,
+      "flash_count": 0,
+      "highlight_mode": "focus"
+    },
+    "error": {
+      "enabled": true,
+      "sound": true,
+      "highlight": true,
+      "flash_count": 5,
+      "highlight_mode": "flash"
+    }
+  }
+}

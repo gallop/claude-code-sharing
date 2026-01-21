@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Skill(skill-creator)",
+      "Bash(python .claude/skills/skill-creator/scripts/init_skill.py:*)",
+      "Bash(python .claude/skills/skill-creator/scripts/package_skill.py:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(tar:*)",
+      "Bash(if not exist .claudeskillsreflectscripts mkdir .claudeskillsreflectscripts)",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(find:*)",
+      "Bash(powershell:*)",
+      "Skill(superpowers:using-superpowers)",
+      "Bash(dir:*)",
+      "Bash(echo:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell.exe -Command \"Get-Process | Where-Object {$_ProcessName -like ''*code*'' -or $_MainWindowTitle -like ''*Claude*''} | Select-Object ProcessName, Id, MainWindowTitle | Format-Table\")",
+      "Bash(copy:*)",
+      "Bash(copy \"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\notice.mp3\" \"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\error.mp3\")",
+      "Bash(cmd /c \"copy /Y \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\notice.mp3\"\" \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\complete.mp3\"\" && copy /Y \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\notice.mp3\"\" \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\permission.mp3\"\" && copy /Y \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\notice.mp3\"\" \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\tool_complete.mp3\"\" && copy /Y \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\notice.mp3\"\" \"\"D:\\\\usr\\\\doc\\\\ai_doc\\\\ai实验文档\\\\claude-code-test\\\\.claude\\\\mp3\\\\error.mp3\"\"\")",
+      "Bash(powershell.exe:*)"
+    ]
+  }
+}

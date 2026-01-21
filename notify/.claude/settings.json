@@ -1,0 +1,17 @@
+{
+  "enabledPlugins": {
+    "superpowers@superpowers-marketplace": true
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -File \".claude/scripts/notify.ps1\" -Event stop -HighlightMode flash -FlashCount 5"
+          }
+        ]
+      }
+    ]
+  }
+}
